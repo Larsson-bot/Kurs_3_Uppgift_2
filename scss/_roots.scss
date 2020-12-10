@@ -1,0 +1,31 @@
+html,body{
+background-color: $secondary;
+font-family: $primary-font-family ;
+color:$font-color;
+
+
+button{
+ background-color:$button-background;
+ font-family: $primary-font-family;
+ font-size: 20px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 0.5px;
+ width: 100%;
+ border: 1px solid transparent;
+ &:focus{
+    outline-style: none;
+ }
+ &:hover{
+    border-color: white;
+ }
+}
+
+input[type="text"], input[type="password"]{
+    font-size: 18px;
+    &:focus{
+        outline-style: none;
+        box-shadow: 0 0 0 8px rgba(6, 162, 247, 0.2);   
+    }
+}
+}

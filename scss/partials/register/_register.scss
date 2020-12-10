@@ -1,0 +1,31 @@
+body{
+    
+.container{
+    background-color: $primary;
+    padding: 16px;
+    border-radius: 5px;
+    }
+
+    .form-group input{
+       width: 100%;
+       border-radius: 5px;
+       border: 2px solid $primary;
+       padding: 5px 5px;
+       background-color: $input-background;
+       color: $input-color;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        font-family: $secondary-font-family;
+    }
+    label{
+        padding-left: 2px;
+        font-size: 1.15rem;
+    }
+    button{
+        background-color: $button-background;
+        color: $font-color;
+    }
+}

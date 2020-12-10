@@ -1,0 +1,9 @@
+
+@import "./_variables";
+@import "./utilities";
+
+@import "../../bootstrap-4.5.3/bootstrap-4.5.3/scss/bootstrap.scss";
+@import "./_roots";
+@import "./partials/register/register";
+@import"./partials/login/login";
+
